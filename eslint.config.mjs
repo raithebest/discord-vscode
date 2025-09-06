@@ -3,7 +3,7 @@ import node from 'eslint-config-neon/node';
 import prettier from 'eslint-config-neon/prettier';
 import typescript from 'eslint-config-neon/typescript';
 import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
-import merge from 'lodash.merge';
+import merge from 'lodash.merge'; 
 import tseslint from 'typescript-eslint';
 
 const commonFiles = '{js,mjs,cjs,ts,mts,cts}';
